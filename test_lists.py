@@ -15,7 +15,8 @@ option_config = OptionalRules(
 )
 
 
-test_list = [
+test_list = 
+    # Case1
     [
         HandConfig(
             is_tsumo=True,
@@ -41,6 +42,7 @@ test_list = [
             'dora_pi': ['2m'],
             'list_meld_pi': []
         }],
+    # Case2
     [
         HandConfig(
             is_tsumo=True,
@@ -71,6 +73,7 @@ test_list = [
                               'opened': True}
                              ]
         }],
+    # Case3
     [
         HandConfig(
             is_tsumo=False,
@@ -99,6 +102,7 @@ test_list = [
                               'opened': True}
                              ]
         }],
+    # Case4
     [
         HandConfig(
             is_tsumo=False,
@@ -125,6 +129,7 @@ test_list = [
                               'opened': False}
                              ]
         }],
+    # Case5
     [
         HandConfig(
             is_tsumo=True,
